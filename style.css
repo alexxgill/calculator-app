@@ -28,15 +28,19 @@ body {
 .toggleContainer {
     color: white;
     display: flex;
+    font-size: 20px;
 }
 
 .calc, .toggle {
-    font-size: 15px;
     width: 50%;
+}
+.calc{
+    font-family: impact;
 }
 
 .toggle {
     text-align: right;
+    font-family: League Spartan;
 }
 
 .keyboard {

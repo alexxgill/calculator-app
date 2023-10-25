@@ -5,7 +5,7 @@ const keyReset = document.getElementById("keyReset");
 const logo = document.getElementById("calc");
 const calc = document.getElementById("keyCalc");
 const keys = document.getElementsByClassName("keys");
-const toggle = document.getElementById("toggle");
+const toggle = document.getElementById("toggleContainer");
 
 function theme1() {
     document.body.style.backgroundColor = "hsl(222, 26%, 31%)";

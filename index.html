@@ -15,28 +15,29 @@
 
 <body>
   <main>
-    <div class="toggleContainer">
+    <div id="toggleContainer" class="toggleContainer">
       <div id="calc" class="calc">
         Calc
       </div>
+      Theme:
       <div id="toggle" class="toggle">
-        Theme:
-        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          
+        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
           <input type="radio" class="radio btn-check" onclick="theme1()" name="btnradio" id="btnradio1" checked>
-          <label class="btn btn-outline-primary" for="btnradio1"></label>
+          <label class="btn btn-outline-primary" for="btnradio1">1</label>
 
           <input type="radio" class="radio btn-check" onclick="theme2()" name="btnradio" id="btnradio2">
-          <label class="btn btn-outline-primary" for="btnradio2"></label>
+          <label class="btn btn-outline-primary" for="btnradio2">2</label>
 
           <input type="radio" class="radio btn-check" onclick="theme3()" name="btnradio" id="btnradio3">
-          <label class="btn btn-outline-primary" for="btnradio3"></label>
+          <label class="btn btn-outline-primary" for="btnradio3">3</label>
         </div>
       </div>
     </div>
 
-    <div name="display" id="display" class="display">0</div>
+    <div id="display" class="display">0</div>
 
-    <div name="keyboard" id="keyboard" class="keyboard">
+    <div id="keyboard" class="keyboard">
       <div class="row2">
         <div id="key7" onclick="calcular(this.textContent)" class="keys">7</div>
         <div id="key8" onclick="calcular(this.textContent)" class="keys">8</div>
