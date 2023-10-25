@@ -1,5 +1,6 @@
 body {
     background-color: hsl(222, 26%, 31%);
+    padding-top: 5%;
 }
 .toggleContainer,
 .display,
@@ -7,11 +8,11 @@ body {
     margin: 10px auto;
     width: 300px;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .keyboard {
     background-color: hsl(223, 31%, 20%);
-    border-radius: 10px;
 }
 
 .display {

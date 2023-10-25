@@ -20,18 +20,15 @@
         Calc
       </div>
       <div id="toggle" class="toggle">
-        Theme: 
+        Theme:
         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-          <input type="radio" class="radio btn-check" onclick="theme1()" name="btnradio" id="btnradio1"
-            autocomplete="off" checked>
+          <input type="radio" class="radio btn-check" onclick="theme1()" name="btnradio" id="btnradio1" checked>
           <label class="btn btn-outline-primary" for="btnradio1"></label>
 
-          <input type="radio" class="radio btn-check" onclick="theme2()" name="btnradio" id="btnradio2"
-            autocomplete="off">
+          <input type="radio" class="radio btn-check" onclick="theme2()" name="btnradio" id="btnradio2">
           <label class="btn btn-outline-primary" for="btnradio2"></label>
 
-          <input type="radio" class="radio btn-check" onclick="theme3()" name="btnradio" id="btnradio3"
-            autocomplete="off">
+          <input type="radio" class="radio btn-check" onclick="theme3()" name="btnradio" id="btnradio3">
           <label class="btn btn-outline-primary" for="btnradio3"></label>
         </div>
       </div>
@@ -41,32 +38,32 @@
 
     <div name="keyboard" id="keyboard" class="keyboard">
       <div class="row2">
-        <div name="key" id="key7" onclick="calcular(this.textContent)" class="keys">7</div>
-        <div name="key" id="key8" onclick="calcular(this.textContent)" class="keys">8</div>
-        <div name="key" id="key9" onclick="calcular(this.textContent)" class="keys">9</div>
-        <div name="key" id="keyDel" onclick="calcular(this.textContent)" class="keys del">DEL</div>
+        <div id="key7" onclick="calcular(this.textContent)" class="keys">7</div>
+        <div id="key8" onclick="calcular(this.textContent)" class="keys">8</div>
+        <div id="key9" onclick="calcular(this.textContent)" class="keys">9</div>
+        <div id="keyDel" onclick="calcular(this.textContent)" class="keys del">DEL</div>
       </div>
       <div class="row2">
-        <div name="key" id="key4" onclick="calcular(this.textContent)" class="keys">4</div>
-        <div name="key" id="key5" onclick="calcular(this.textContent)" class="keys">5</div>
-        <div name="key" id="key6" onclick="calcular(this.textContent)" class="keys">6</div>
-        <div name="key" id="keyMais" onclick="calcular(this.textContent)" class="keys">+</div>
+        <div id="key4" onclick="calcular(this.textContent)" class="keys">4</div>
+        <div id="key5" onclick="calcular(this.textContent)" class="keys">5</div>
+        <div id="key6" onclick="calcular(this.textContent)" class="keys">6</div>
+        <div id="keyMais" onclick="calcular(this.textContent)" class="keys">+</div>
       </div>
       <div class="row2">
-        <div name="key" id="key1" onclick="calcular(this.textContent)" class="keys">1</div>
-        <div name="key" id="key2" onclick="calcular(this.textContent)" class="keys">2</div>
-        <div name="key" id="key3" onclick="calcular(this.textContent)" class="keys">3</div>
-        <div name="key" id="keyMenos" onclick="calcular(this.textContent)" class="keys">-</div>
+        <div id="key1" onclick="calcular(this.textContent)" class="keys">1</div>
+        <div id="key2" onclick="calcular(this.textContent)" class="keys">2</div>
+        <div id="key3" onclick="calcular(this.textContent)" class="keys">3</div>
+        <div id="keyMenos" onclick="calcular(this.textContent)" class="keys">-</div>
       </div>
       <div class="row2">
-        <div name="key" id="keyPonto" onclick="calcular(this.textContent)" class="keys">.</div>
-        <div name="key" id="key0" onclick="calcular(this.textContent)" class="keys">0</div>
-        <div name="key" id="keyDiv" onclick="calcular(this.textContent)" class="keys">/</div>
-        <div name="key" id="keyMult" onclick="calcular(this.textContent)" class="keys">*</div>
+        <div id="keyPonto" onclick="calcular(this.textContent)" class="keys">.</div>
+        <div id="key0" onclick="calcular(this.textContent)" class="keys">0</div>
+        <div id="keyDiv" onclick="calcular(this.textContent)" class="keys">/</div>
+        <div id="keyMult" onclick="calcular(this.textContent)" class="keys">*</div>
       </div>
       <div class="row2">
-        <div name="key" id="keyReset" onclick="calcular(this.textContent)" class="keys reset">RESET</div>
-        <div name="key" id="keyCalc" onclick="calcular(this.textContent)" class="keys igual">=</div>
+        <div id="keyReset" onclick="calcular(this.textContent)" class="keys reset">RESET</div>
+        <div id="keyCalc" onclick="calcular(this.textContent)" class="keys igual">=</div>
       </div>
     </div>
   </main>
@@ -75,7 +72,7 @@
 
   <div id="attribution" class="attribution">
     Challenge by <a id="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a id="link2" href="https://github.com/alexxgill">Alexandre Gil</a>.
+    Coded by <a id="link2" href="https://github.com/alexxgill" target="_blank">Alexandre Gil</a>.
   </div>
   <script src="script.js"></script>
 </body>
