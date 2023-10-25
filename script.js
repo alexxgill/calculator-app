@@ -7,6 +7,30 @@ const calc = document.getElementById("keyCalc");
 const keys = document.getElementsByClassName("keys");
 const toggle = document.getElementById("toggleContainer");
 
+
+document.addEventListener("keydown", function(e){
+    if(e.key == "1")calcular("1");
+    if(e.key == "2")calcular("2");
+    if(e.key == "3")calcular("3");
+    if(e.key == "4")calcular("4");
+    if(e.key == "5")calcular("5");
+    if(e.key == "6")calcular("6");
+    if(e.key == "7")calcular("7");
+    if(e.key == "8")calcular("8");
+    if(e.key == "9")calcular("9");
+    if(e.key == "0")calcular("0");
+    if(e.key == ".")calcular(".");
+
+    if(e.key == "/")calcular("/");
+    if(e.key == "*")calcular("*");
+    if(e.key == "-")calcular("-");
+    if(e.key == "+")calcular("+");
+   
+    if(e.key == "Enter")calcular("=");
+    if(e.key == "Delete")calcular("DEL");
+    if(e.key == "Backspace")calcular("DEL");   
+})
+
 function theme1() {
     document.body.style.backgroundColor = "hsl(222, 26%, 31%)";
     display.style.backgroundColor = " hsl(224, 36%, 15%)";
