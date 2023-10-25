@@ -1,0 +1,112 @@
+body {
+    background-color: hsl(222, 26%, 31%);
+}
+.toggleContainer,
+.display,
+.keyboard {
+    margin: 10px auto;
+    width: 300px;
+    padding: 5px;
+}
+
+.keyboard {
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 10px;
+}
+
+.display {
+    background-color: hsl(224, 36%, 15%);
+    height: 75px;
+    line-height: 75px;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+
+}
+
+.toggleContainer {
+    color: white;
+    display: flex;
+}
+
+.calc, .toggle {
+    font-size: 15px;
+    width: 50%;
+}
+
+.toggle {
+    text-align: right;
+}
+
+.keyboard {
+    height: 310px;
+}
+
+.row2 {
+    display: flex;
+    text-align: center;
+}
+
+.keys {
+    background-color: rgb(226, 211, 211);
+    box-shadow: 0px 10px 5px 5px rgb(110, 100, 100) 0.75;
+    border-radius: 5px;
+    margin: 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 68px;
+    font-family: impact;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.keys:hover {
+    background-color: rgb(194, 199, 204);
+}
+
+.reset,
+.del,
+.igual {
+    color: white;
+    font-size: 25px;
+}
+
+.reset,
+.del {
+    background-color: hsl(225, 21%, 49%);
+}
+
+.reset:hover,
+.del:hover {
+    background-color: hsl(225, 25%, 39%);
+}
+
+.reset,
+.igual {
+    width: 160px;
+}
+
+.igual {
+    background-color: rgb(192, 41, 41);
+}
+
+.igual:hover {
+    background-color: rgb(165, 27, 27);
+}
+
+
+.attribution {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+.radio{
+    display: none;
+}
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(207, 197, 197);
+}

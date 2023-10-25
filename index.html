@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="src/styles.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <main>
+    <div class="toggleContainer">
+      <div id="calc" class="calc">
+        Calc
+      </div>
+      <div id="toggle" class="toggle">
+        Theme: 
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="radio btn-check" onclick="theme1()" name="btnradio" id="btnradio1"
+            autocomplete="off" checked>
+          <label class="btn btn-outline-primary" for="btnradio1"></label>
+
+          <input type="radio" class="radio btn-check" onclick="theme2()" name="btnradio" id="btnradio2"
+            autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio2"></label>
+
+          <input type="radio" class="radio btn-check" onclick="theme3()" name="btnradio" id="btnradio3"
+            autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio3"></label>
+        </div>
+      </div>
+    </div>
+
+    <div name="display" id="display" class="display">0</div>
+
+    <div name="keyboard" id="keyboard" class="keyboard">
+      <div class="row2">
+        <div name="key" onkeydown="calcular(this.textContent)" id="key7" onclick="calcular(this.textContent)" class="keys">7</div>
+        <div name="key" id="key8" onclick="calcular(this.textContent)" class="keys">8</div>
+        <div name="key" id="key9" onclick="calcular(this.textContent)" class="keys">9</div>
+        <div name="key" id="keyDel" onclick="calcular(this.textContent)" class="keys del">DEL</div>
+      </div>
+      <div class="row2">
+        <div name="key" id="key4" onclick="calcular(this.textContent)" class="keys">4</div>
+        <div name="key" id="key5" onclick="calcular(this.textContent)" class="keys">5</div>
+        <div name="key" id="key6" onclick="calcular(this.textContent)" class="keys">6</div>
+        <div name="key" id="keyMais" onclick="calcular(this.textContent)" class="keys">+</div>
+      </div>
+      <div class="row2">
+        <div name="key" id="key1" onclick="calcular(this.textContent)" class="keys">1</div>
+        <div name="key" id="key2" onclick="calcular(this.textContent)" class="keys">2</div>
+        <div name="key" id="key3" onclick="calcular(this.textContent)" class="keys">3</div>
+        <div name="key" id="keyMenos" onclick="calcular(this.textContent)" class="keys">-</div>
+      </div>
+      <div class="row2">
+        <div name="key" id="keyPonto" onclick="calcular(this.textContent)" class="keys">.</div>
+        <div name="key" id="key0" onclick="calcular(this.textContent)" class="keys">0</div>
+        <div name="key" id="keyDiv" onclick="calcular(this.textContent)" class="keys">/</div>
+        <div name="key" id="keyMult" onclick="calcular(this.textContent)" class="keys">*</div>
+      </div>
+      <div class="row2">
+        <div name="key" id="keyReset" onclick="calcular(this.textContent)" class="keys reset">RESET</div>
+        <div name="key" id="keyCalc" onclick="calcular(this.textContent)" class="keys igual">=</div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <div id="attribution" class="attribution">
+    Challenge by <a id="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a id="link2" href="#">Alexandre Gil</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
